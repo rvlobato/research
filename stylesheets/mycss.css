@@ -1,0 +1,243 @@
+@import url('http://fonts.googleapis.com/css?family=Tangerine|Old+Standard+TT|Oswald:light|Fjord+One|Source+Sans+Pro|Merriweather:400|PT+Serif|Cinzel');
+
+/*Body*/
+body {
+    background-color: #ffffff;
+    font-size: 80%;
+}
+
+/*Headers*/
+h1 {
+    color: #575769;
+    letter-spacing: 1.2px;
+    font-size: 2.25em;
+    font-family: "Cinzel","Old Standard TT", Courier, Arial, Helvetica, serif;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+h2 {
+    color: #8D8D8D;
+    letter-spacing: 1px;
+    font-size: 1.15em;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+h2.menu {
+    color: #8D8D8D;
+    font-size: 1.15em;
+    font-weight: normal;
+}
+
+h2.ola {
+    color: #8D8D8D;
+    font-size: 1.50em;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2.text {
+    color: #8D8D8D;
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: normal;
+}
+
+h3 {
+    color: #8D8D8D;
+    text-align: center;
+    font-size: 2.0em;
+    font-family: "Avenir", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+h4 {
+    border:0.8px dashed;
+    border-width:1.4px 0;
+    border-color: #b4b0a8;
+    padding: 6px;
+    color: #8D8D8D;
+    font-size: 1.2em;
+    text-align: left;
+    font-family: "Cinzel", "Fjord One", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/*Normal paragraph*/
+p {
+    font-size: 0.95em;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+    color: #575769;
+    text-align: justify;
+}
+
+p.centralize {
+    font-size: 0.85em;
+    font-family: "Merriweather", "Source Sans Pro", Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+    color: #575769;
+    text-align: center;
+}
+
+p.email {
+    font-size: 0.80em;
+    font-family: "PT Serif", sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+p.quote {
+    font-size: 0.95em;
+    font-family: "Old Standard TT", "Merriweather", serif;
+    font-style: italic;
+    text-align: justify;
+}
+
+p.caption {
+    font-size: 1.1em;
+    font-family: "Old Standard TT", "Merriweather", serif;
+    font-style: italic;
+    text-align: center;
+}
+
+p.title {
+    font-size: 1.0em;
+    font-family: "Cinzel", "Merriweather", serif;
+}
+
+/*Links*/
+/*FOR THE MAIN BODY*/
+/* unvisited link */
+a.general:link {
+    color: #66A9BE;
+    text-decoration: none;
+}
+/* visited link */
+a.general:visited {
+    color: #66A9BE;
+    text-decoration: none;
+}
+/* mouse over link */
+a.general:hover {
+    /*color: #A9BE66;*/
+    color: #be66a9;
+    text-decoration: none;
+}
+/* selected link */
+a.general:active {
+    /*color: #A9BE66;*/
+    color: #be66a9;
+    text-decoration: none;
+}
+
+/*FOR THE MENU BODY*/
+/* unvisited link */
+a.head:link {
+    display: inline-block;
+    width: 140px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #575769;
+    text-decoration: none;
+}
+/* visited link */
+a.head:visited {
+    display: inline-block;
+    width: 140px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #575769;
+    text-decoration: none;
+}
+/* mouse over link */
+a.head:hover {
+    display: inline-block;
+    width: 140px;
+    border-radius: 10px;
+    text-align: center;
+    /*background-color: #e0cbe7;*/
+    /*background-color: #e7e0cb;*/
+    background-color: #d2e7cb;
+    color: #575769;
+    text-decoration: none;
+}
+/* selected link */
+a.head:active {
+    display: inline-block;
+    width: 140px;
+    border-radius: 10px;
+    text-align: center;
+    /*background-color: #e0cbe7;*/
+    background-color: #d2e7cb;
+    color: #575769;
+    text-decoration: none;
+}
+
+/*FOR THE TITLE BODY*/
+/* unvisited link */
+a.hos:link {
+    color: #575769;
+    text-decoration: none;
+}
+/* visited link */
+a.hos:visited {
+    color: #575769;
+    text-decoration: none;
+}
+/* mouse over link */
+a.hos:hover {
+    color: #800909;
+    text-decoration: none;
+}
+/* selected link */
+a.hos:active {
+    color: #800909;
+    text-decoration: none;
+}
+
+/*FOR THE HIDDEN LINK*/
+/* unvisited link */
+a.hid:link {
+    color: #575769;
+    text-decoration: none;
+}
+/* visited link */
+a.hid:visited {
+    color: #575769;
+    text-decoration: none;
+}
+/* mouse over link */
+a.hid:hover {
+    color: #be66a9;
+    text-decoration: none;
+}
+/* selected link */
+a.hid:active {
+    color: #be66a9;
+    text-decoration: none;
+}
+
+/*MENU*/
+.menu{
+    border: 1px solid;
+    border-width: 2.0px 0;
+    border-color: #e1dcd3;
+    list-style: none;
+    margin: 2px;
+    padding: 8px;
+    text-align: center;
+}
+.menu li{
+    display: inline;
+}
+
+.currentLink {
+   color: #640200;
+   background-color: #000000;
+}

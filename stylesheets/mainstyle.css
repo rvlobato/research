@@ -1,0 +1,75 @@
+<STYLE type="text/css">
+
+body {
+  font-family: verdana, arial, san-serif;
+  font-size: 10pt;
+  color: blue
+}
+
+td.head {
+  font-family: verdana, arial, san-serif;
+  font-size: 250%;
+  font-weight: bold;
+  color: #FFFFFF
+}  
+td.bar {
+  font-family: verdana, arial, san-serif;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: right
+}  
+td.text {
+  font-family: verdana, arial, san-serif;
+  font-size: 9pt;
+  vertical-align: top
+}  
+td.news {
+  font-family: arial, san-serif;
+  font-size: 8pt;
+  vertical-align: top
+}
+td.abouthd {
+  font-family: verdana, arial, san-serif;
+  font-size: 10pt;
+  text-align: center;
+}
+td.small {
+  font-family: verdana, arial, san-serif;
+  font-size: 8pt
+}
+td.foot {
+  font-family: verdana, arial, san-serif;
+  vertical-align: top;
+  font-size: 7pt
+}
+td.logo {
+  text-align: right
+}
+
+a:link {
+  text-decoration: none;
+  color: #001166
+}
+
+a:visited {
+  text-decoration: none;
+  color: #234567
+}
+
+a:active {
+  text-decoration: none;
+  color: #DB7093
+}
+
+a:hover {
+  background-color: white;
+  color: #6789AB
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px
+}
+
+
+</STYLE>

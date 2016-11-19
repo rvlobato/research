@@ -456,7 +456,7 @@ h1.title {
 }
 
 .wrapper {
-  width: 675px;
+  width: 975px; /*largura da página*/
   margin: 0 auto;
 }
 
