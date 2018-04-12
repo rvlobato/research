@@ -435,7 +435,7 @@ body {
 }
 
 a {
-  color: #63a52a;
+  color: #0000FF /*#FF0000 /*#63a52a;
   text-decoration: none;
   transition: opacity ease-in-out 0.3s;
   -webkit-transition: opacity ease-in-out 0.3s;  /* Safari <=6.1, Android <= 4.3 */
