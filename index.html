@@ -82,8 +82,34 @@
 	  <br>This open sourced site is hosted on <a href="https://github.com/rvlobato/rvlobato.github.io">GitHub</a>.
 	  <br> Please email me if you find any broken links or other errors on this site. Patches, suggestions and comments are welcome.
 <br>
-	  <script language="Javascript">
-document.write("This page was last modified on: " + document.lastModified +"");
+	<script language="Javascript">
+	  function addZero(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
+	  var derniereModif = document.lastModified;
+          var dateModif = new Date(derniereModif);
+	  var month = new Array(12);
+	  month[0] = "January";
+	  month[1] = "February";
+	  month[2] = "March";
+	  month[3] = "April";
+	  month[4] = "May";
+	  month[5] = "June";
+	  month[6] = "July";
+	  month[7] = "August";
+	  month[8] = "September";
+	  month[9] = "October";
+	  month[10] = "November";
+	  month[11] = "December";
+	  var jour = dateModif.getUTCDate();
+	  var mois = month[dateModif.getUTCMonth()];
+          var annee = dateModif.getUTCFullYear();
+          var heures = addZero(dateModif.getUTCHours());
+          var minutes = addZero(dateModif.getUTCMinutes());
+	  document.write("This main page was last modified on: "+ mois + "/"+ jour + "/" + annee + " at " + heures + ":" + minutes+" UTC");
 </SCRIPT>.
 </a></small>
       </div>
